@@ -5,7 +5,7 @@ using UnityEngine;
 public class CameraFollow : MonoBehaviour
 {
 public Transform Target;
-public float Cameraspeed;
+public float Cameraspeed = 5f;
 public float minX,maxX;
 public float minY,maxY;
 
